@@ -3,21 +3,28 @@
 
 ## Laravel
 
-### *MVC и MVP
-
 ### Какими абстракциями можно дополнить Laravel из коробки
+Post 
+
+ - Route
+
+ - Middleware
+
+ - Controller
+ 
+ - Model
 
  - View (blade,api...)
 
- - Controller
 
- - Model
+
 
 ## Git
 
-### Работал ли в большой команде
+### Как был устроен Git-flow в вашей команде
+ - CI-CD
+ - Использование веток и т.д.
 
-### Git-flow
 
 
 ## Архитектурные шаблоны

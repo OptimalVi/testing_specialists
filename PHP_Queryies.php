@@ -3,7 +3,7 @@
 
 #region 1
 
-$x = 3 + '15%' + '$25';
+$x = 3 + '15%' . '$25'; // 18
 
 #endregion /1
 
@@ -27,12 +27,12 @@ echo $name;
 
 Class Clazz
 {
-    public $value;
+    public string $value;
 }
 
 $b = new Clazz;
-$b->newValue = 1;
-$a = $b;
+$b->value = 1;
+$a = clone $b;
 $a->newValue = 2;
 echo $b->newValue;
 
